@@ -1,0 +1,107 @@
+.card{
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card>img{
+    border-radius: 50%;
+}
+.card-content{
+    border-top: 3px solid blueviolet;
+}
+.card-content>h2{
+    color: bisque;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 10px;
+}
+.card-content>button{
+    padding: 10px 20px;
+    background-color: beige;
+    border: none;
+    border-radius: 20px;
+}
+.card-content>button>a{
+    text-decoration: none;
+    color: brown;
+    font-weight: 900;
+    font-size: 25px;
+
+}
+
+.boxes>div{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    border-radius: 50%;
+
+}
+boxes{
+    width: 300px;
+}
+.box1{
+    background-color: blue;
+    animation-name: mymove;
+    animation-duration: 5s;
+}
+.box2{
+    background-color: blueviolet;
+    position: relative;
+    animation: move2;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes mymove{
+    from{
+background-color: aquamarine;
+width: 100px;
+    }
+    to{
+background-color: brown;
+width: 30px;
+    }
+
+}
+@keyframes move2{
+    0%{
+        top: 0;
+        left: 0;
+
+    }
+
+    100%{
+        top: 100px;
+        left: 300px;
+        width: 100px;
+        height: 80px;
+    }
+}
+
+#mug{
+
+    position:absolute;
+    animation: vlieg 10s linear;
+}
+    @keyframes vlieg{
+        0%{
+            top: 0;
+            left:0;
+        }
+        20%{
+            top:-10px;
+            left:100px;
+
+        }
+        50%{
+            top: 30px;
+            left: 200px;
+        }
+        70%{
+            top: 0;
+            left: 0;
+        }
+    
+    }

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Forms</title>
+    <style>
+        file-upload-button{
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <form method="get">
+        <label for="naam">naam</label>
+        <input type="text" id="name" placeholder="Naam">
+        <br>
+        <label for="email">email</label>
+        <input type="email" id="email">
+        <br>
+        <label for="password">password</label>
+        <input type="password" id="password" required>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <fieldset>
+<legend>USER LOGIN</legend>
+<form>
+    <label for="username">username</label>
+    <input type="text" minlength="5" maxlength="8">
+    <br>
+    <label for="password">password</label>
+    <input type="password" id="password">
+    <br>
+    <label for="geboorteDatum">geboorteDatum</label>
+    <input type="date" id="geboorteDatum">
+    <br>
+    <input type="button" value="submit">
+    <button type="reset">Reset</button>
+
+</form>
+    </fieldset>
+  <!--  <button type="submit">Submit</button>-->
+
+  <form>
+    <label for=" ">Inschrijven niewsbrief</label>
+    <input type="checkbox" name="" id="" checked>
+    <br>
+    <label for="">Inschrijven promotiemails</label>
+    <input type="checkbox" name="" id="" checked>
+    <br>
+    
+    <h2>Kies je favoriete auto</h2>
+<label for="">Volvo</label>
+    <input type="radio" name="car" id="">
+    <label for="">Audi</label>
+    <input type="radio" name="car" id="">
+    <label for="">Porsche</label>
+    <input type="radio" name="car" id="">
+    <br>
+
+<label for="">Selecteer je auto</label>
+<select name="" id="">
+<option value="Volvo">Volvo</option>
+<option value="Audi" selected>Audi</option>
+<option value="Porsche">Porsche</option>
+</select>
+<br>
+<label for="">RANGE</label>
+<input type="range" name="" id="" min="0" max="50">
+<br>
+<input type="number" name="" id=""  min="5" max="10">
+<br>
+<input type="file" name="" id="" style="background-color: yellowgreen;">
+<br>
+
+  </form>
+   
+</body>
+</html>

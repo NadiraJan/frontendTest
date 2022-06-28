@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu {
+    background-color: darkorchid;
+    /*border:1px solid whitesmoke;*/
+    width: 100%;
+
+}
+
+.foto {
+    width: 1450px;
+
+}
+
+#logo {
+
+    text-align: left;
+    color: blue;
+    padding-top: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 20px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: coral solid;
+    border-radius: 15px;
+    background-color: chartreuse;
+}
+
+main{
+    margin-top: 10px;;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+
+}
+
+h3 {
+    color: darkred;
+    text-align: center;
+
+}
+
+#nav {
+    list-style-type: none;
+    font-size: 30px;
+    font-family: 'Arial';
+    display: flex;
+    justify-content: flex-end;
+    color: azure;
+
+}
+
+#nav>li {
+    margin-right: 30px;
+    font-weight: 600;
+    padding: 20px 0;
+    margin-top: 0;
+    padding-right: 10px;
+
+}
+
+#nav>li>a {
+    text-decoration: none;
+}
+
+#nav>li:hover {
+    background-color: deeppink;
+    cursor: progress;
+    box-shadow: 0 6px 8px;
+    border-radius: 10px;
+}
+
+form {
+   font-family: sans-serif;
+    padding-left: 50px;
+    text-align: center;
+ }
+
+input {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #33192f;
+    margin-left: 1px;
+    
+
+}
+
+main {
+    display: flex;
+    width: 100%;
+
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    margin-top: 0;
+
+}
+
+.sidebar {
+    border: 3px dashed green;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    height: 50px;
+    font-size: 20px;
+    width: 400px;
+    color: navy;
+    height: 900px;
+
+}
+
+.sidebar {
+    list-style-type: none;
+    text-align: left;
+
+}
+
+h2 {
+    text-align: center;
+    color: darkorange
+}
+
+
+.blog {
+    display: none;
+}
+
+#mouseUp:hover {
+    cursor: pointer;
+}
+
+
+.foto {
+    background-color: gold;
+
+    display: flex;
+    border: 5px solid black;
+}
+
+footer {
+    display: flex;
+    position: sticky;
+    background-color: dodgerblue;
+    width: 100%;
+    bottom: 0;
+    color: rgb(251, 251, 10);
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+
+footer>h5 {
+    width: 40%;
+    top: justify;
+
+}
+
+#end>ul {
+    font-size: 15px;
+    color: aquamarine;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+footer>ul {
+
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-style: italic;
+    font-weight: bold;
+
+}

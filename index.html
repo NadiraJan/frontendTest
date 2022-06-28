@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My_project</title>
+</head>
+
+<body>
+    <header div class="menu">
+        <h1 id="logo"><img src="logo.jpg" width="75" height="65">Bijna vakantie!</h1>
+        </div>
+        <div class="navbar">
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="game.html">Projecten</a></li>
+                <li><a href="opdracht.html">Layout </a></li>
+                <li><a href="contact.html">Contact </a></li>
+
+            </ul>
+        </div>
+    </header>
+
+   
+
+        <form onsubmit="event.preventDefault()">
+            <input type="text" name="naam" id="naam" placeholder="Geef je naam">
+                       <input type="button" value="submit"
+                       onclick="document.getElementById('welkom').innerHTML= 'Welkom ' + document.getElementById('naam').value">
+        </form>
+        <br>      <h3 id="welkom">Welkom</h3>
+        <main>
+  
+        <br>
+
+        <div class="container">
+         
+                <ul class="sidebar">
+                    <li onclick="toonItem(this)" ondblclick="closeItem(this)">
+                        <h2>Vliegtuig</h2>
+                        <p class="blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
+                            reiciendis tenetur
+                            laborum recusandae, ex beatae voluptate sequi at repudiandae iste vitae molestias
+                            dignissimos vel, eaque
+                            deserunt error eos neque quasi.</p>
+                    </li>
+
+                    <li onclick="toonItem(this)" ondblclick="closeItem(this)">
+                        <h2>Eerste dag</h2>
+                        <p class="blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, enim omnis
+                            necessitatibus,
+                            eligendi officiis quibusdam, nisi commodi aperiam eius earum eum tempore tempora!
+                            Consectetur obcaecati
+                            possimus reprehenderit fugit incidunt. Doloremque.</p>
+
+                    </li>
+
+                    <li onclick="toonItem(this)" ondblclick="closeItem(this)">
+                        <h2>Genieten</h2>
+                        <p class="blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, enim omnis
+                            necessitatibus,
+                            eligendi officiis quibusdam, nisi commodi aperiam eius earum eum tempore tempora!
+                            Consectetur obcaecati
+                            possimus reprehenderit fugit incidunt. Doloremque.</p>
+
+                    </li>
+                    <li onclick="toonItem(this)" ondblclick="closeItem(this)">
+                        <h2>Terug</h2>
+                        <p class="blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, enim omnis
+                            necessitatibus,
+                            eligendi officiis quibusdam, nisi commodi aperiam eius earum eum tempore tempora!
+                            Consectetur obcaecati
+                            possimus reprehenderit fugit incidunt. Doloremque.</p>
+                    </li>
+                </ul>
+
+        </div>
+
+        <div class="foto">
+
+            <img src="foto.jpg" />
+
+        </div>
+        </div>
+    </main>
+
+    <footer id="end">
+        <h5>© Nadira 2022</h5>
+        <ul>
+            <li><a href="contact.html">Contact </a></li>
+            <li><a href="https://github.com/NadiraJan"><img src="git.jpg" width="30px" height="25px"></a></li>
+
+        </ul>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
